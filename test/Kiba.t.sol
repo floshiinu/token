@@ -9,7 +9,7 @@ contract TestContract is Test {
     ERC20Kiba c;
 
     function setUp() public {
-        c = new Contract();
+        c = new ERC20Kiba();
     }
 
     function testBar() public {
