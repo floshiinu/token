@@ -6,7 +6,7 @@ import "forge-std/Test.sol";
 import "src/Kiba.sol";
 
 contract TestContract is Test {
-    Contract c;
+    Kiba c;
 
     function setUp() public {
         c = new Contract();
