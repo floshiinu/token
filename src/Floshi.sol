@@ -337,7 +337,7 @@ contract Ownable is Context {
   }
 }
 
-contract ERC20Kiba is Context, IERC20, Ownable {
+contract ERC20Floshi is Context, IERC20, Ownable {
   using SafeMath for uint256;
 
   mapping (address => uint256) private _balances;
@@ -346,8 +346,8 @@ contract ERC20Kiba is Context, IERC20, Ownable {
 
   uint256 private _totalSupply;
   uint8 public immutable _decimals;
-  string public constant _symbol = "KIBA";
-  string public constant _name = "Kiba Inu";
+  string public constant _symbol = "FLOSHI";
+  string public constant _name = "Floshi Inu";
 
   constructor() public {
     _decimals = 18;
