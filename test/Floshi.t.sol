@@ -3,12 +3,12 @@ pragma solidity 0.6.5;
 
 import "forge-std/Test.sol";
 
-import "src/Kiba.sol";
+import "src/Floshi.sol";
 
 contract TestContract is Test {
-    ERC20Kiba c;
+    ERC20Floshi c;
 
     function setUp() public {
-        c = new ERC20Kiba();
+        c = new ERC20Floshi();
     }
 }
